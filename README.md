@@ -1,1 +1,2 @@
-Using arduino and switches ot blink respective LEDs when switches are pressed.
+# Dual LED Control
+This simple AVR microcontroller project controls two LEDs (red and green) based on input from three physical switches. When Switch 3 is pressed, the red LED blinks; when Switch 5 is pressed, the green LED blinks; and when Switch 7 is pressed, both LEDs blink together. If any two switches are pressed simultaneously, the system disables all blinking to avoid conflicting behavior. The program uses internal pull-up resistors and bitwise operations for efficient switch detection and LED control, with debounce handling through timed delays. This project was implemented and tested on an Arduino using raw AVR C, demonstrating low-level I/O control and conditional logic handling.
